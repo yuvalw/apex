@@ -10,16 +10,18 @@
     <div id="container">
       <div id="clock">
         <p class="apex">Apex</p>
+        <p class="date" id="kills">Season 7 Kills</p>
         <p class="date">20:00</p>
         <p id="time"></p>
       </div>
     </div>
-
+    <script src="js/jquery.js"></script>
+    <script src="js/apex.js"></script>
     <script>
       const toDate = new Date();
       toDate.setHours(20, 0, 0);
       const toTime = toDate.getTime();
-
+      getApexData();
       setInterval(() => {
         const nowTime = new Date().getTime();
 
