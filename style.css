@@ -6,15 +6,15 @@
 }
 
 #time {
-  font-size: 100px;
+  font-size: 50px;
   color: #254007;
 }
 #image {
 }
 #image img {
-  height: 300px;
+  height: 100px;
 }
 #counter {
-  font-size: 70px;
+  font-size: 30px;
   color: #ff6f6f;
 }
