@@ -1,0 +1,20 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#time {
+  font-size: 100px;
+  color: #254007;
+}
+#image {
+}
+#image img {
+  height: 300px;
+}
+#counter {
+  font-size: 70px;
+  color: #ff6f6f;
+}
