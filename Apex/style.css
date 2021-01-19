@@ -24,12 +24,16 @@ p {
 }
 #time {
   letter-spacing: 0.05em;
-  font-size: 80px;
+  font-size: 60px;
   padding: 5px 0;
 }
 .date {
   letter-spacing: 0.1em;
   font-size: 24px;
+}
+.apex {
+  font-size: 34px;
+  margin-bottom: 10px;
 }
 .text {
   letter-spacing: 0.1em;
